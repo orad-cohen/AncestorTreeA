@@ -67,7 +67,7 @@ TEST_CASE("Relations")
     CHECK_THROWS(T.find("moth") );
     CHECK_THROWS(T.find("mot") );
     CHECK_THROWS(T.find("mo") );
-    CHECK_THROWS(T.find("m") == "v");
+    CHECK_THROWS(T.find("m"));
     CHECK_THROWS(T.find("MOTHE") );
     CHECK_THROWS(T.find("MOTHER") );
     CHECK_THROWS(T.find("MOTHERR") );
