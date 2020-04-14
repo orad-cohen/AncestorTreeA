@@ -1,6 +1,6 @@
 #include "doctest.h"
 #include "FamilyTree.hpp"
-
+#define CHECK_THROWS DOCTEST_CHECK_THROWS
 
 #include <string>
 using namespace std;
